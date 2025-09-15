@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome</title>
+    <title>Mbank</title>
+    <link rel="icon" type="image/png" href="image.png">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -11,19 +12,19 @@
     <div class="bg-[#2b2c2f]">
         <header class="h-12 w-full p-2 container mx-auto text-white flex items-center justify-between">
             <div class="flex items-center ml-6">
-                <img src="ic_m_large.png" alt="logo" class="h-8 cursor-painter ml-6" />
+                <img src="ic_m_large.png" alt="logo" class="h-8 cursor-pointer ml-6" />
                 <div class="text-gray-400 font-semibold flex gap-4 pl-8 cursor-painter">
-                    <p class="hover:text-teal-300 text-sm ml-7">Танд</p>
-                    <p class="hover:text-teal-300 text-sm ml-7">Таны бизнест</p>
-                    <p class="hover:text-teal-300 text-sm ml-8">Бид</p>
+                    <p class="hover:text-teal-300 cursor-pointer text-sm ml-7">Танд</p>
+                    <p class="hover:text-teal-300 cursor-pointer text-sm ml-7">Таны бизнест</p>
+                    <p class="hover:text-teal-300 cursor-pointer text-sm ml-8">Бид</p>
                 </div>
             </div>
             <div class="flex items-center gap-4">
-                <button class="text-[#21cda8] font-semibold cursor-painter">
+                <button class="text-[#21cda8] font-semibold cursor-pointer">
                     М Туслах
                 </button>
                 <div class="border-gray-600 border-l h-6"></div>
-                <button class="cursor-painter rounded-lg bg-[#21cda8] p-1 px-2 text-white font-semibold shadow">
+                <button class="cursor-pointer rounded-lg bg-[#21cda8] p-1 px-2 text-white font-semibold shadow">
                     Нэвтрэх
                 </button>
             </div>
@@ -37,13 +38,13 @@
                     <div class="h-6 w-[1px] bg-gray-600 ml-5"></div>
                     <p class="flex gap-3 ml-5 items-center font-semibold cursor-pointer hover:text-white text-sm">Харилцах данс</p>
                     <p class="flex gap-3 ml-7 items-center font-semibold cursor-pointer hover:text-white text-sm">Хадгаламж</p>
-                    <i class="fa fa-chevron-down mt-1" aria-hidden="true"></i>
+                    <i class="fa fa-chevron-down mt-1 cursor-pointer" aria-hidden="true"></i>
                     <p class="flex gap-3 ml-7 items-center font-semibold cursor-pointer hover:text-white text-sm">Санхүүжилт</p>
-                     <i class="fa fa-chevron-down mt-1" aria-hidden="true"></i>
+                     <i class="fa fa-chevron-down mt-1 cursor-pointer" aria-hidden="true"></i>
                     <p class="flex gap-3 ml-7 items-center font-semibold cursor-pointer hover:text-white text-sm">Гадаад шилжүүлэг</p>
-                     <i class="fa fa-chevron-down mt-1" aria-hidden="true"></i>
+                     <i class="fa fa-chevron-down mt-1 cursor-pointer" aria-hidden="true"></i>
                     <p class="flex gap-3 ml-7 items-center font-semibold cursor-pointer hover:text-white text-sm">Бусад</p>
-                     <i class="fa fa-chevron-down mt-1" aria-hidden="true"></i>
+                     <i class="fa fa-chevron-down mt-1 cursor-pointer" aria-hidden="true"></i>
                 </div>
             </div>
         </header>
@@ -89,7 +90,10 @@
             </div>
         </div>
     </div>
-    <div class="">
+    <div>
+        <img src="Screenshot 2025-09-14 175446.png" alt="">
+    </div>
+    <div>
         <img src="m-bank.mn_corporate_global-pay(pc) (1).png" alt="">
     </div>
 
@@ -103,22 +107,22 @@
         </div>
         <span class="text-xl font-semibold">Танд</span>
       </div>
-      <ul class="space-y-2 text-sm">
-  <p class="hover:text-white">Харилцах данс</p>
-  <p class="hover:text-white">Дижитал зээл</p>
-  <p class="hover:text-white">Шилжүүлэг</p>
-      </ul>
+      <div class="space-y-2 text-sm">
+        <p class="hover:text-white">Харилцах данс</p>
+        <p class="hover:text-white">Дижитал зээл</p>
+        <p class="hover:text-white">Шилжүүлэг</p>
+      </div>
     </div>
 
     <div>
       <h3 class="font-semibold mb-4">Таны бизнес</h3>
-      <ul class="space-y-2 text-sm">
-  <p class="hover:text-white">Харилцах данс</p>
-  <p class="hover:text-white">Гадаад төлбөр тооцоо</p>
-  <p class="hover:text-white">Хөрөнгө оруулалтын зээл</p>
-  <p class="hover:text-white">Эргэлтийн хөрөнгийн зээл</p>
-  <p class="hover:text-white">Гарын авлагууд</p>
-      </ul>
+      <div class="space-y-2 text-sm">
+        <p class="hover:text-white">Харилцах данс</p>
+        <p class="hover:text-white">Гадаад төлбөр тооцоо</p>
+        <p class="hover:text-white">Хөрөнгө оруулалтын зээл</p>
+        <p class="hover:text-white">Эргэлтийн хөрөнгийн зээл</p>
+        <p class="hover:text-white">Гарын авлагууд</p>
+      </div>
     </div>
 
     <div>
@@ -129,33 +133,33 @@
         Сүхбаатарын талбай, Сентрал Тауэр,<br />
         15-р давхар
       </p>
-      <p class="text-sm">Утас: <a href="tel:18002929" class="hover:text-white">1800 2929</a></p>
-      <p class="text-sm">Имэйл: <a href="mailto:hello@m-bank.mn" class="hover:text-white">hello@m-bank.mn</a></p>
+      <p class="text-sm">Утас: 1800 2929</p>
+      <p class="text-sm">Имэйл: hello@m-bank.mn</p>
     </div>
 
     <div>
       <h3 class="font-semibold mb-4">M community-д нэгдээрэй</h3>
       <div class="flex space-x-4 text-gray-400">
-    <p class="hover:text-white"><i class="fab fa-facebook-f"></i></p>
-    <p class="hover:text-white"><i class="fab fa-users"></i></p>
-    <p class="hover:text-white"><i class="fab fa-instagram"></i></p>
-    <p class="hover:text-white"><i class="fab fa-twitter"></i></p>
-    <p class="hover:text-white"><i class="fab fa-linkedin"></i></p>
+        <p class="hover:text-white"><i class="fab fa-facebook-f"></i></p>
+        <p class="hover:text-white"><i class="fa-solid fa-user"></i></p>
+        <p class="hover:text-white"><i class="fab fa-instagram"></i></p>
+        <p class="hover:text-white"><i class="fab fa-twitter"></i></p>
+        <p class="hover:text-white"><i class="fab fa-linkedin"></i></p>
       </div>
       <div class="mt-6">
-  <p class="text-sm hover:text-white">Бүтээгдэхүүн, үйлчилгээний нөхцөл</p>
+        <p class="text-sm hover:text-white">Бүтээгдэхүүн, үйлчилгээний нөхцөл</p>
       </div>
     </div>
   </div>
 
   <div class="mt-10 border-t border-gray-700 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
-    <p>Бүх эрх хуулиар хамгаалагдсан © 2025. М банк</p>
+        <p>Бүх эрх хуулиар хамгаалагдсан © 2025. М банк</p>
     <div class="flex items-center space-x-2 mt-4 md:mt-0">
-  <p class="hover:text-white">Үйлчилгээний нөхцөл</p>
-      <span class="ml-4 flex items-center space-x-1">
+            <p class="hover:text-white">Үйлчилгээний нөхцөл</p>
+      <div class="ml-4 flex items-center space-x-1">
         <img src="https://flagcdn.com/w20/gb.png" alt="English" class="w-5 h-5" />
-  <p class="hover:text-white">EN</p>
-      </span>
+            <p class="hover:text-white">EN</p>
+      </div>
     </div>
   </div>
 </footer>
