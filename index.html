@@ -8,7 +8,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body class="bg-gray-100 min-h-screen">
+<body class=" min-h-screen">
     <div class="bg-[#2b2c2f]">
         <header class="h-12 w-full p-2 container mx-auto text-white flex items-center justify-between">
             <div class="flex items-center ml-6">
@@ -92,22 +92,115 @@
     </div>
     <div class="py-16 h-[1200px] bg-black">
       <div class="bg-blackh-80 w-full flex justify-center align-center">
-         <h1 class="text-4xl text-white font-bold">Үйлчилгээний нөхцөл</h1>
+         <h1  class="text-4xl text-white font-bold">Үйлчилгээний нөхцөл</h1>
       </div>
       <div class="bg-black h-full w-full flex justify-center align-center">
         <div class="bg-black w-[1500px] h-[900px]">
-          <div class="w-full h-48 flex justify-around align-center ">
-            <p class="text-2xl font-semibold text-teal-300">Гүйлгээний төрөл</p>
-            <p class="text-2xl font-semibold text-teal-300">Валют</p>
-            <p class="text-2xl font-semibold text-teal-300">Шимтгэл /ам.доллар/</p>
-            <p class="text-2xl font-semibold text-teal-300">Тайлбар</p>
+          <div class="w-full h-40 flex justify-between items-center px-10 bg-black">
+            <p class="text-2xl font-semibold text-teal-300 text-center w-1/4">Гүйлгээний төрөл</p>
+            <p class="text-2xl font-semibold text-teal-300 text-center w-1/4">Валют</p>
+            <p class="text-2xl font-semibold text-teal-300 text-center w-1/4">Шимтгэл /ам.доллар/</p>
+            <p class="text-2xl font-semibold text-teal-300 text-center w-1/4">Тайлбар</p>
           </div>
-          <div class="w-full h-48 bg-green-400 "></div>
+          <div class="w-full h-48 rounded-lg flex justify-between items-center px-10 bg-[#2525255C]">
+            <p class="text-2xl font-semibold text-neutral-500 text-center w-1/4">USD direct</p>
+            <p class="text-2xl font-semibold text-white text-center w-1/4">USD</p>
+            <p class="text-2xl font-semibold text-white text-center w-1/4">$9</p>
+            <p class="text-2xl font-semibold text-white text-center w-1/4 whitespace-pre-line break-words">АНУ руу ам.доллар илгээх гүйлгээ /1 сая ам.доллар хүртэлх дүнтэй/</p>
+          </div>
+          <div class="w-full h-48 rounded-lg flex justify-between items-center px-10 bg-black">
+            <p class="text-2xl font-semibold text-neutral-500 text-center w-1/4">EUR direct</p>
+            <p class="text-2xl font-semibold text-white text-center w-1/4">EUR</p>
+            <p class="text-2xl font-semibold text-white text-center w-1/4">$9</p>
+            <p class="text-2xl font-semibold text-white text-center w-1/4 whitespace-pre-line break-words">SEPA гишүүн улсууд руу евро илгээх гүйлгээ</p>
+          </div>
+          <div class="w-full h-48 rounded-lg flex justify-between items-center px-10 bg-[#2525255C]">
+            <p class="text-2xl font-semibold text-neutral-500 text-center w-1/4">SHA</p>
+            <p class="text-2xl font-semibold text-white text-center w-1/4">USD</p>
+            <p class="text-2xl font-semibold text-white text-center w-1/4">$15</p>
+            <p class="text-2xl font-semibold text-white text-center w-1/4 whitespace-pre-line break-words">Харилцагч дамжуулагч банкны шимтгэлийг төлөхгүй.</p>
+          </div>
+           <div class="w-full h-48 rounded-lg flex justify-between items-center px-10 bg-blackl">
+            <p class="text-2xl font-semibold text-neutral-500 text-center w-1/4">OUR</p>
+            <p class="text-2xl font-semibold text-white text-center w-1/4">USD</p>
+            <p class="text-2xl font-semibold text-white text-center w-1/4">$25</p>
+            <p class="text-2xl font-semibold text-white text-center w-1/4 whitespace-pre-line break-words">Харилцагч дамжуулагч банкны шимтгэлийг хариуцна.</p>
+          </div>
         </div>
       </div>
     </div>
-    <div>
-        <img src="m-bank.mn_corporate_global-pay(pc) (1).png" alt="">
+
+    <div class="flex flex-col gap-4 w-full h-[1000px] bg-zinc-950 p-8 items-center">
+      <h1 class="text-4xl font-bold text-white mb-8">Түгээмэл асуулт хариулт</h1>
+      <div class="flex items-center gap-3 text-bold text-neutral-400 text-lg mb-6">
+        <p class="text-bold">Өдрийн мэнд ☀️</p>
+        <p>03:32 PM</p>
+      </div>
+      <div class="flex">
+        <div class="bg-zinc-900 px-6 py-5 rounded-[1vw] flex justify-between items-center h-18 max-w-xl">
+          <p class="text-white font-bold">Ямар валютаар хийх боломжтой вэ?</p>
+        </div>
+        <div class="flex justify-center items-center ml-5">
+          <i class="fa fa-plus-circle text-2xl text-gray-400" aria-hidden="true"></i>
+        </div>
+      </div>
+      
+      <div class="flex">
+        <div class="bg-zinc-900 px-6 py-5 rounded-[1vw] flex justify-between items-center h-18 max-w-xl">
+          <p class="text-white font-bold">Шилжүүлэг хийх боломжгүй улс, орон гэж байгаа юу?</p>
+        </div>
+        <div class="flex justify-center items-center ml-5">
+          <i class="fa fa-plus-circle text-2xl text-gray-400" aria-hidden="true"></i>
+        </div>
+      </div>
+      <div class="flex">
+        <div class="bg-zinc-900 px-6 py-5 rounded-[1vw] flex justify-between items-center h-18 max-w-xl">
+          <p class="text-white font-bold">Ямар тохиолдолд M global pay-р шилжүүлэг хийх боломжгүй вэ?</p>
+        </div>
+        <div class="flex justify-center items-center ml-5">
+          <i class="fa fa-plus-circle text-2xl text-gray-400" aria-hidden="true"></i>
+        </div>
+      </div>
+      <div class="flex">
+        <div class="bg-zinc-900 px-6 py-5 rounded-[1vw] flex justify-between items-center h-18 max-w-xl">
+          <p class="text-white font-bold">Шимтгэлийн төрлүүд ямар ялгаатай юм бол?</p>
+        </div>
+        <div class="flex justify-center items-center ml-5">
+          <i class="fa fa-plus-circle text-2xl text-gray-400" aria-hidden="true"></i>
+        </div>
+      </div>
+      <div class="flex">
+        <div class="bg-zinc-900 px-6 py-5 rounded-[1vw] flex justify-between items-center h-18 max-w-xl">
+          <p class="text-white font-bold">Илгээсэн гадаад шилжүүлэг хэзээ хүлээн авагчийн дансанд орох вэ?</p>
+        </div>
+        <div class="flex justify-center items-center ml-5">
+          <i class="fa fa-plus-circle text-2xl text-gray-400" aria-hidden="true"></i>
+        </div>
+      </div>
+      <div class="flex">
+        <div class="bg-zinc-900 px-6 py-5 rounded-[1vw] flex justify-between items-center h-18 max-w-xl">
+          <p class="text-white font-bold">Илгээсэн шилжүүлгээ зарцуулах эсвэл буцаах боломж уу?</p>
+        </div>
+        <div class="flex justify-center items-center ml-5">
+          <i class="fa fa-plus-circle text-2xl text-gray-400" aria-hidden="true"></i>
+        </div>
+      </div>
+      <div class="flex">
+        <div class="bg-zinc-900 px-6 py-5 rounded-[1vw] flex justify-between items-center h-18 max-w-xl">
+          <p class="text-white font-bold">Миний илгээсэн шилжүүлэг хүлээн авагчийн дансанд ороогүй байвал яах вэ?</p>
+        </div>
+        <div class="flex justify-center items-center ml-5">
+          <i class="fa fa-plus-circle text-2xl text-gray-400" aria-hidden="true"></i>
+        </div>
+      </div>
+      <div class="flex">
+        <div class="bg-zinc-900 px-6 py-5 rounded-[1vw] flex justify-between items-center h-18 max-w-xl">
+          <p class="text-white font-bold">Амралтын өдрүүдэд M гадаад шилжүүлэг илгээх боломжтой юу?</p>
+        </div>
+        <div class="flex justify-center items-center ml-5">
+          <i class="fa fa-plus-circle text-2xl text-gray-400" aria-hidden="true"></i>
+        </div>
+      </div>
     </div>
 
     <footer class="bg-zinc-900 text-white py-10 px-6">
@@ -178,6 +271,7 @@
 </footer>
 
 <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
 
 </body>
 </html>
